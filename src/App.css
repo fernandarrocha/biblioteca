@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #d0e1e9;
+}
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.book-list,
+.shelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+.book-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: left;
+}
+.book-item h1 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.book-item button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.book-item button:hover {
+  background-color: #0056b3;
+}
+
+.livroLido {
+  margin: 40x 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #a1d3ec;
+}
+
+.estouLendo {
+  margin: 40px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #a1d3ec;
+}
+.estouLendo h1 {
+  text-shadow: #007bff;
+}
+
+.queroLer {
+  margin: 40px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #a1d3ec;
+}
